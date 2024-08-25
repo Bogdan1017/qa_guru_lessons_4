@@ -1,5 +1,5 @@
 plugins {
-    id 'java-library'
+    id("java")
 }
 
 repositories {
@@ -8,6 +8,7 @@ repositories {
 
 dependencies {
     testImplementation (
+            "org.junit.jupiter:junit-jupiter:5.9.3"
             )
 }
 
